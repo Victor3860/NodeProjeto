@@ -17,32 +17,32 @@
             <div class="mb-3">
                 <label for="disabledSelect" class="form-label"  style="color: #FFCA2C">Selecione seu nível:</label>
                 <select id="disabledSelect" class="form-select border border-warning radius"  type="color" >
-                  <option>Iniciante</option>
-                  <option>Intermediário</option>
-                  <option>Avançado</option>
+                  <option value="iniciante">Iniciante</option>
+                  <option value="intermediário">Intermediário</option>
+                  <option value="avançado">Avançado</option>
                 </select>
             </div>
             <div class="mb-3">
                 <label for="disabledSelect" class="form-label" style="color: #FFCA2C">Selecione o grupo muscular:</label>
                 <select id="disabledSelect" class="form-select border border-warning">
-                  <option>Peito</option>
-                  <option>Pernas</option>
-                  <option>Ombros</option>
-                  <option>Biceps</option>
-                  <option>Costas</option>
-                  <option>Triceps</option>
-                  <option>Full body</option>
+                  <option value="peito">Peito</option>
+                  <optio value="pernas">Pernas</option>
+                  <option value="ombros">Ombros</option>
+                  <option value="biceps">Biceps</option>
+                  <option value="costas">Costas</option>
+                  <option value="triceps">Triceps</option>
+                  <option value="full body">Full body</option>
                 </select>
             </div>
             <div class="mb-3">
                 <label for="disabledSelect" class="form-label" style="color: #FFCA2C">Modalidade:</label>
                 <select id="disabledSelect" class="form-select  border border-warning">
-                  <option>Musculação</option>
-                  <option>Calistenia</option>
+                  <option value="musculação">Musculação</option>
+                  <option value="calistenia">Calistenia</option>
                 </select>
             </div>
             <a href="./treino.html">
-            <button type="button" class="btn btn-warning">Montar seu treino</button>
+            <button type="button" class="btn btn-warning" onclick="gerarTreino()">Montar seu treino</button>
         </a>
         </div>
     </div>
